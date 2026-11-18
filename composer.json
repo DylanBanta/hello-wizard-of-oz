@@ -1,0 +1,27 @@
+{
+    "name": "westmschools/hello-wizard-of-oz",
+    "description": "Tornado Engine module: a random Wizard of Oz quote in the header of every page, like Hello Dolly.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4",
+        "illuminate/support": "^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WestmSchools\\HelloWizardOfOz\\": "src/"
+        }
+    },
+    "extra": {
+        "tornado": {
+            "name": "Hello Wizard of Oz",
+            "core": ">=0.19",
+            "core-module": false,
+            "provider": "WestmSchools\\HelloWizardOfOz\\HelloWizardOfOzServiceProvider",
+            "settings": "/administration/hello-wizard-of-oz"
+        },
+        "branch-alias": {
+            "dev-main": "0.1.x-dev"
+        }
+    }
+}
