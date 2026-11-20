@@ -1,6 +1,6 @@
 {
     "name": "westmschools/hello-wizard-of-oz",
-    "description": "Tornado Engine module: a random Wizard of Oz quote in the header of every page, like Hello Dolly.",
+    "description": "Tornado Engine module: a random Wizard of Oz quote in the footer of every page, like Hello Dolly.",
     "type": "library",
     "license": "MIT",
     "require": {
